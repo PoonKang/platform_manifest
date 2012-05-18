@@ -13,7 +13,7 @@
            fetch="https://github.com/CyanogenMod/"
            revision="ics" />
            
-  <remote> name="PoonKang"
+  <remote  name="PoonKang"
            fetch="https://github.com/PoonKang/"
            revision="ics" />
 
