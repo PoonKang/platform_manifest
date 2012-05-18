@@ -15,7 +15,7 @@
            
   <remote> name="PoonKang"
            fetch="https://github.com/PoonKang/"
-           revision="ics"
+           revision="ics" />
 
   <default remote="aosp"
            sync-j="4" />
