@@ -20,14 +20,14 @@
   <default remote="aosp"
            sync-j="4" />
 
-  <project path="build" name="AOKP/android_build" revision="ics" remote="gh">
+  <project path="build" name="android_build" revision="ics" remote="PoonKang">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="abi/cpp" name="platform/abi/cpp" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="PoonKang" revision="ics" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="platform/dalvik" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
@@ -57,7 +57,7 @@
   <project path="device/moto/stingray" name="AOKP/device_moto_stingray" remote="gh" revision="ics" />
   <project path="device/moto/wingray" name="AOKP/device_moto_wingray" remote="gh" revision="ics" />
   <project path="device/sample" name="device/sample" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
-  <project path="device/samsung/aries-common" name="AOKP/device_samsung_aries-common" remote="gh" revision="ics" />
+  <project path="device/samsung/aries-common" name="device_samsung_aries-common" remote="PoonKang" revision="ics" />
   <project path="device/samsung/captivatemtd" name="AOKP/device_samsung_captivatemtd" remote="gh" revision="ics" />
   <project path="device/samsung/crespo" name="AOKP/device_samsung_crespo" remote="gh" revision="ics" />
   <project path="device/samsung/crespo4g" name="AOKP/device_samsung_crespo4g" remote="gh" revision="ics" />
