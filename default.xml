@@ -6,7 +6,7 @@
 
   <remote  name="gh"
            fetch="https://github.com/"
-           review="gerrit.aokp.co"
+           review="gerrit.sudoservers.com"
            revision="ics" />
 
   <remote  name="cm"
@@ -231,10 +231,6 @@
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="hardware/ti/wlan" name="AOKP/android_hardware_ti_wlan" remote="gh" revision="ics" />
   <project path="hardware/ti/wpan" name="AOKP/android_hardware_ti_wpan" remote="gh" revision="ics" />
-  <project path="kernel/hp/tenderloin" name="CyanogenMod/hp-kernel-tenderloin" remote="gh" revision="ics" />
-  <project path="kernel/htc/supersonic" name="Evervolv/android_kernel_htc_qsd8k" remote="gh" revision="ics" />
-  <project path="kernel/lge/star" name="AOKP/lge-kernel-star" remote="gh" revision="android-tegra-2.6.32-ics" />
-  <project path="kernel/samsung/tuna" name="CyanogenMod/android_kernel_samsung_tuna" remote="gh" revision="ics" />
   <project path="libcore" name="platform/libcore" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="packages/apps/Apollo" name="android_packages_apps_Apollo" remote="cm" revision="ics"/>
@@ -313,7 +309,6 @@
   <project path="vendor/htc" name="AOKP/vendor_htc" remote="gh" revision="ics" />
   <project path="vendor/lge" name="AOKP/vendor_lge" remote="gh" revision="ics" />
   <project path="vendor/aokp/bot" name="AOKP/pseudo_buildbot" remote="gh" revision="ics" />
-  <project path="vendor/amazon/otter" name="AOKP/vendor_amazon_otter" remote="gh" revision="ics" />
   <project path="vendor/acer" name="AOKP/vendor_acer" remote="gh" revision="ics" />
   <project path="vendor/asus" name="AOKP/vendor_asus" remote="gh" revision="ics" />
   <project path="vendor/qcom/opensource/omx/mm-core" name="AOKP/android_vendor_qcom_opensource_omx_mm-core" remote="gh" revision="ics" />
